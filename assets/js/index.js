@@ -48,7 +48,7 @@ function renderAvatar(user) {
         //渲染头像
     if (user.user_pic !== null) {
         //将图像显示在页面中
-        $('.layui-nav-img').attr('src', 'user.user_pic').show()
+        $('.layui-nav-img').attr('src', user.user_pic).show()
         $('.text-avatar').hide()
 
     } else {
